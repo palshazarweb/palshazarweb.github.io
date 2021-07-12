@@ -1,0 +1,68 @@
+/* reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;	
+}
+
+ul {
+	list-style-type: none;
+}
+
+html {
+	height: 100%;
+	overflow: scroll;
+}
+
+body {
+	background-color: #dddddd;
+	font: normal 1rem 'Arial';
+}
+
+main {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+header {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+footer {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+.page_title {
+	font-size: 1.8rem;
+	margin: 1em;
+}
+
+.book_item {
+	margin-bottom: 4em;
+	border: solid 1px #bbbbbb;
+	background-color: #e4e4e4;
+	padding: 1em;
+}
+
+.book_item img {
+	margin-bottom: 1em;
+}
+
+.book_item h3 {
+	font-size: 1.5rem;
+	margin: 1em;	
+}
+
+.book_item p {
+	margin-bottom: 1em;
+}
