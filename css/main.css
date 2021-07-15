@@ -16,12 +16,12 @@ html {
 }
 
 body {
-	background-color: #dddddd;
+	background-color: #e6e0e0;
 	font: normal 1rem 'Arial';
 }
 
 main {
-	width: 1000px;
+	width: 90%;
 	margin: auto;
 	text-align: center;
 }
@@ -31,9 +31,16 @@ h1, h2, h3, h4 {
 }
 
 header {
-	width: 1000px;
+	width: 100%;
 	margin: auto;
 	text-align: center;
+}
+
+header h1 {
+	font-size: 6rem;
+	margin: auto;
+	text-align: center;	
+	color: #505050;
 }
 
 footer {
@@ -43,26 +50,40 @@ footer {
 }
 
 .page_title {
-	font-size: 1.8rem;
+	font-size: 5rem;
 	margin: 1em;
+	color: #505050;
+}
+
+.books {
+	display: grid;
+	grid-auto-flow: row;
 }
 
 .book_item {
-	margin-bottom: 4em;
-	border: solid 1px #bbbbbb;
-	background-color: #e4e4e4;
-	padding: 1em;
+	font-size: 2.8rem;
+	margin-bottom: 4rem;
+	background-color: #ffffff;
+	padding: 2em 1em;
+	border-radius: 4vw;
+	width: 100%;
+	color: #505050;
 }
 
-.book_item img {
+.book_item .cover {
 	margin-bottom: 1em;
+	width: calc(100% - 4rem);
 }
 
 .book_item h3 {
-	font-size: 1.5rem;
-	margin: 1em;	
+	font-size: 3.5rem;
+	margin-bottom: 1em;
 }
 
 .book_item p {
 	margin-bottom: 1em;
+}
+
+.paypal .buynow {
+	width: 50%;
 }
