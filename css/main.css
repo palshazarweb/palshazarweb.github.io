@@ -36,35 +36,36 @@ header {
 	text-align: center;
 }
 
-header h1 {
-	font-size: 6rem;
-	margin: auto;
+footer {
+	width: 100%;
+	padding: 0 0 2rem 0;
+	text-align: center;
+	font-size: 1rem;
+	color: #505050;
+}
+
+.site_title {
+	display: block;
+	font-size: 2.5rem;
+	margin: 0 auto 1rem auto;
 	text-align: center;	
 	color: #505050;
 }
 
-footer {
-	width: 1000px;
-	margin: auto;
-	text-align: center;
-	font-size: 3rem;
-	color: #505050;
-}
-
 .page_title {
-	font-size: 5rem;
-	margin: 1em;
+	font-size: 2rem;
+	margin: 0 auto 1.5rem auto;
 	color: #505050;
+	width: 100%;
+	text-align: center;
 }
 
 .books {
-	display: grid;
-	grid-auto-flow: row;
 }
 
 .book_item {
-	font-size: 2.3rem;
-	margin-bottom: 4rem;
+	font-size: 1rem;
+	margin-bottom: 2rem;
 	background-color: #ffffff;
 	padding: 2em 1em;
 	border-radius: 4vw;
@@ -74,11 +75,11 @@ footer {
 
 .book_item .cover {
 	margin-bottom: 1em;
-	width: calc(100% - 4rem);
+	width: calc(100% - 1rem);
 }
 
 .book_item h3 {
-	font-size: 3.5rem;
+	font-size: 1.5rem;
 	margin-bottom: 1em;
 }
 
@@ -89,3 +90,94 @@ footer {
 .paypal .buynow {
 	width: 50%;
 }
+
+@media only screen and (min-width: 480px) {
+
+	main {
+		width: 90%;
+	}
+
+	footer {
+		font-size: 1.5rem;
+	}
+
+	.site_title {
+		font-size: 4rem;
+	}
+
+	.page_title {
+		font-size: 3rem;
+	}
+
+	.book_item {
+		font-size: 1rem;
+		margin-bottom: 4rem;
+		padding: 3em em;
+		border-radius: 2vw;
+		width: 100%;
+	}
+
+	.book_item .cover {
+		margin-bottom: 1em;
+		width: 60%;
+	}
+
+	.book_item h3 {
+		font-size: 2.5rem;
+		margin-bottom: 1em;
+	}
+
+	.book_item p {
+		margin-bottom: 1em;
+	}
+
+	.paypal .buynow {
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+
+	main {
+		width: 900px;
+	}
+
+	footer {
+		font-size: 1.5rem;
+	}
+
+	.site_title {
+		font-size: 4rem;
+	}
+
+	.page_title {
+		font-size: 3rem;
+	}
+
+	.book_item {
+		font-size: 1.3rem;
+		margin-bottom: 4rem;
+		padding: 3em em;
+		border-radius: 2vw;
+		width: 100%;
+	}
+
+	.book_item .cover {
+		margin-bottom: 1em;
+		width: 60%;
+	}
+
+	.book_item h3 {
+		font-size: 2.5rem;
+		margin-bottom: 1em;
+	}
+
+	.book_item p {
+		margin-bottom: 1em;
+	}
+
+	.paypal .buynow {
+		width: 25%;
+	}
+}
+
