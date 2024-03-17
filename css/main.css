@@ -122,7 +122,27 @@ footer {
 }
 
 .paypal .buynow2:hover {
-    filter: brightness(0.95);
+    filter: brightness(0.80);
+}
+
+.amazon_btn {
+	width: 60%;
+	color: #FFFFFF;
+	display: inline-block;
+	margin:  0 auto;
+	padding-top: -5rem;
+	border-radius: 4px;
+	background: #000000 url('../page_images/amazon.png') no-repeat center center;
+	background-size: 40%;
+	height: 3.5rem;	
+}
+
+.amazon_btn span {
+	display: none;
+}
+
+.amazon_btn:hover {
+    filter: brightness(0.80);
 }
 
 .nobreak {
@@ -174,6 +194,12 @@ footer {
 		background-size: 30%;
 		line-height: 3rem;
 	}
+
+	.amazon_btn {
+		width: 35%;
+		background-size: 40%;
+		line-height: 4rem;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -218,6 +244,12 @@ footer {
 	.paypal .buynow2 {
 		width: 40%;
 		background-size: 25%;
+		line-height: 3rem;
+	}
+
+	.amazon_btn {
+		width: 40%;
+		background-size: 35%;
 		line-height: 3rem;
 	}
 }
